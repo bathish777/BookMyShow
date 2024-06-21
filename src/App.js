@@ -5,8 +5,16 @@ import Book from './Book';
 
 function App() {
   return (
+<<<<<<< HEAD
     <Router> 
       <Routes>
+=======
+
+
+    <Router> 
+      <Routes>
+        
+>>>>>>> master
         <Route path="/" element={<Home />} />
         <Route path="/movie/:id" element={<Book />} />
       </Routes>
