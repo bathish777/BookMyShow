@@ -1,0 +1,148 @@
+.App {
+    text-align: center;
+  }
+  
+  .booking-form {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    
+  }
+  
+  .seats {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  
+  .booked {
+    background-color: #888; 
+    cursor: not-allowed;
+  }
+  
+  .platinum-seats {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color:palegoldenrod;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 20px;
+  }
+  
+  .platinum-seats div:nth-child(10n+3),
+  .gold-seats div:nth-child(10n+3),
+  .platinum-seats div:nth-child(10n+7),
+  .gold-seats div:nth-child(10n+7) {
+    margin-right: 100px;
+    
+
+  }
+
+  
+ 
+
+
+  .checkboxes {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checkmark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .available {
+    background-color: whitesmoke;
+  }
+  
+  .selected {
+    background-color: green;
+  }
+  
+  .booked {
+    background-color: darkgray;
+  }
+  
+
+
+
+
+
+
+
+
+  
+  .gold-seats {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    background-color:goldenrod;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  .disabled {
+    background-color: #ffd700;
+    pointer-events: none;
+  }
+
+
+ .back-button{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    
+
+  }
+
+  /* #ab{
+    display: flex;
+    float: left;
+    justify-content:right;
+    padding-top: 100px;
+        background-color: red;
+    color: white;
+
+  } */
+
+  .ab{
+    /* background-color:red; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 0%;
+  
+
+  }
+  
